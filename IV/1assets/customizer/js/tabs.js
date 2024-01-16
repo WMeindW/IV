@@ -29,7 +29,7 @@ wp.customize.controlConstructor[
 			}, 100 );
 		} );
 
-		wp.customize.previewer.bind( 'focus-section', function ( data ) {
+		wp.customize.previewer.bind( 'focus-subsection-mid', function ( data ) {
 			/**
 			 * This timeout is here because in firefox this happens before customizer animation of changing panels.
 			 * After it change panels with the input focused, the customizer was moved to right 12px. We have to make sure

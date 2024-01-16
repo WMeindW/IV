@@ -1,6 +1,8 @@
-body{
+body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
 header {
     display: flex;
     flex-direction: row;
@@ -8,7 +10,7 @@ header {
     width: 100%;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +22,7 @@ header {
     margin-left: 5em;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +32,7 @@ header {
     margin-right: 5em;
 }
 
-.nav-text{
+.nav-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,18 +42,18 @@ header {
     height: 100%;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.banner-img{
+.banner-img {
     width: 100%;
 }
 
-.banner-text{
+.banner-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,30 +64,103 @@ header {
     margin-bottom: 5em;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 3em;
     margin: 0;
 }
-h6{
+
+h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-size: 1em;
     margin-bottom: auto;
-    width: 70%;      
+    width: 70%;
 }
 
-.buttons{
+.buttons {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 2em;
 }
 
-.btn-1{
-    width: 5em;
-    height: 2em;
-    background-color: yellow;
+.btn-1 {
+    height: 3em;
+    font-size: 1em;
+    background-color: #E7B051;
     border-color: transparent;
     margin-right: 1em;
+    cursor: pointer;
+}
+
+.btn-2 {
+    height: 3em;
+    font-size: 1em;
+    background-color: transparent;
+    border-color: black;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.mid-section {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.subsection-mid {
+    min-height: 30vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-img {
+    max-width: 100%;
+}
+
+.section-text-heading {
+    margin-top: 1em;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.section-text {
+    margin-top: 1em;
+    font-weight: 400;
+}
+
+.lower-mid-section {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subsection-lower {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ECECEC;
+}
+
+.subsection-img {
+    max-height: 80%;
 }

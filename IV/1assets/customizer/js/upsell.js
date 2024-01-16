@@ -24,10 +24,10 @@ wp.customize.bind( 'ready', function () {
 
 wp.customize.sectionConstructor.nv_simple_upsell_section = wp.customize.Section.extend(
 	{
-		// No events for this type of section.
+		// No events for this type of subsection-mid.
 		attachEvents() {},
 
-		// Always make the section active.
+		// Always make the subsection-mid active.
 		isContextuallyActive() {
 			return true;
 		},
