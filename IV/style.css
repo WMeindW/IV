@@ -102,6 +102,7 @@ h6 {
     border-color: black;
     margin-right: 1em;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .mid-section {
@@ -116,7 +117,7 @@ h6 {
 }
 
 .subsection-mid {
-    min-height: 30vh;
+    min-height: 40vh;
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -142,7 +143,7 @@ h6 {
 
 .lower-mid-section {
     margin: auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,17 +151,124 @@ h6 {
     text-align: center;
 }
 
+.subsection-wrapper {
+    background-color: #ECECEC;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsection-wrapper-white {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsection-wrapper-dark {
+    background-color: #15171C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .subsection-lower {
     height: 70vh;
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ECECEC;
+    gap: 2em;
 }
 
 .subsection-img {
     max-height: 80%;
+}
+
+.subsection-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.subsection-text-heading {
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: left;
+    width: 100%;
+
+}
+
+.subsection-text {
+    margin-top: 1em;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.bottom-section {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 70vh;
+}
+
+.testimony {
+    height: 45vh;
+    width: 100%;
+    background-color: #ECECEC;
+}
+
+.testimony-container {
+    gap: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+.individual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.individual-icon {
+    border-radius: 50%;
+    height: 9vh;
+}
+
+.individual-text {
+    font-size: 0.8em;
+    margin-top: 1em;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1em;
 }
