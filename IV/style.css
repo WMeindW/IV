@@ -81,7 +81,7 @@ header {
     width: 100%;
     margin-top: 5vh;
     top: 0;
-    padding-top: 6em;
+    padding-top: 10vw;
 }
 
 h1 {
@@ -301,7 +301,6 @@ h6 {
 }
 
 .work-wrapper {
-    height: 40vh;
     background-color: #15171C;
     width: 100%;
     display: flex;
@@ -317,6 +316,7 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2em;
 }
 
 .work-text-heading {
@@ -373,7 +373,7 @@ footer {
 
     .banner-text {
         background-color: #eef0ed;
-        padding-top: 4em;
+        padding-top: 8vw;
     }
 
     h1 {
